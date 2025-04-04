@@ -1,4 +1,4 @@
-def comparar_paises(y, x):
+def earth(y, x):
   if x < y:
     return True, False
   else:
@@ -7,7 +7,7 @@ def comparar_paises(y, x):
 y = "Barbados"
 x = "Bangladesh"
 
-resultado1, resultado2 = comparar_paises(y, x)
+resultado1, resultado2 = earth(y, x)
 
 print(f"The result of {x} comes first in the dictionary than {y} is {resultado1}.")
 print(f"The result of {y} comes first in the dictionary than {x} is {resultado2}.")
