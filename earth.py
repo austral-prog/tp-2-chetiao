@@ -4,8 +4,8 @@ def comparar_paises(y, x):
   else:
     return False, True
 
-y = "Barbados"
-x = "Bangladesh"
+y = "Bangladesh"
+x = "Barbados"
 
 resultado1, resultado2 = comparar_paises(y, x)
 
