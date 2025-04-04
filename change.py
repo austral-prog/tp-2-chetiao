@@ -8,13 +8,10 @@ def change():
     print(money)
     print()
     print("Vuelto")
-
     print()
-
     print("Pesos:")
     resultado = money - expense
-    Decimal = str(resultado)[3 : 5]
-
+    Decimal = str(resultado)[-2 : 5]
     print(int(resultado))
     print("Centavos:")
     print(Decimal) 
