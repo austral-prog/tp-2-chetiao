@@ -1,5 +1,5 @@
 def comparar_paises(y, x):
-  if y < x:
+  if x < y:
     return True, False
   else:
     return False, True
