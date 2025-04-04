@@ -16,7 +16,7 @@ def change():
     Decimal = str(resultado)[3 : 5]
 
     print(int(resultado))
-    print("Centavos")
+    print("Centavos:")
     print(Decimal) 
 
 change()
