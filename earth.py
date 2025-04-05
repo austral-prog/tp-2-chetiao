@@ -1,13 +1,11 @@
-def earth(y, x):
-  if x < y:
-    return True, False
-  else:
-    return False, True
+def earth():
+    x = "Bangladesh"
+    y = "Barbados"
+    c = x < y
+    d = x > y
+    c = str(c)
+    d = str(d)
 
-y = "Barbados"
-x = "Bangladesh"
-
-resultado1, resultado2 = earth(y, x)
-
-print(f"The result of {x} comes first in the dictionary than {y} is {resultado1}.")
-print(f"The result of {y} comes first in the dictionary than {x} is {resultado2}.")
+    print("The result of "+x+" comes first in the dictionary than "+y+" is " + c +".")
+    print("The result of "+y+" comes first in the dictionary than "+x+" is " + d + ".")
+earth()
