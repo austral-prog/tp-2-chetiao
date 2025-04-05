@@ -1,19 +1,24 @@
 def change():
-    expense = 23.75
-    money = 100
-
+    Gasto = 23.75
+    Ingreso = 100
     print("Ingresar gasto:")
-    print(expense)
+    print(Gasto)
     print("Dinero recibido")
-    print(money)
-    print()
+    print(Ingreso)
+    print("")
     print("Vuelto")
-    print()
+    print("")
     print("Pesos:")
-    resultado = money - expense
-    Decimal = str(resultado)[-2 : 5]
-    print(int(resultado))
+    a = Ingreso - Gasto
+    a = int(a)
+    b = (Ingreso - Gasto)
+
+    print(a)
     print("Centavos:")
-    print(Decimal) 
+    
+    vuelto = int(a)
+    c = b-vuelto
+    print(int(c*100))
+    
 
 change()
